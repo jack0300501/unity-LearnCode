@@ -6,10 +6,16 @@ public class dog
     public string name;
     public float weight;
     public string type;
-    public string sex;
+    private string sex;
     public string color;
     public int age;
     #endregion
+
+    public dog(string sex,int age)
+    {
+        this.sex = sex;
+        this.age = age;
+    }
 
     #region 方法;
     /// <summary>

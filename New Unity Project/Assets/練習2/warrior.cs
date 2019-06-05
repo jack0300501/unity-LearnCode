@@ -10,8 +10,7 @@ public class warrior
     {
         get
         {
-            exp = lv * 10;
-            return exp;
+            return lv * 10;
         }
         set
         {

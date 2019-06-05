@@ -11,7 +11,7 @@ public class Soldier
     public int Getexp()
     {
         exp = lv * 10;
-        return exp;
+        return lv * 10;
     }
     /// <summary>
     /// 設定經驗值
