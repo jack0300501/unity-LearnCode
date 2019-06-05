@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+[System.Serializable]
 public class dog
 {
     #region 欄位;
@@ -22,7 +22,7 @@ public class dog
     /// <summary>
     /// 轉換年齡的方法
     /// </summary>
-    public void ConverAge()
+    public int ConverAge()
     {
         return age * 7;
     }
